@@ -1,0 +1,234 @@
+@CHARSET "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Lato:100);
+
+ul{
+	list-style-type: none;
+}
+label{
+	color: #747474;
+}
+a{
+	color: #4a8db8;
+	text-decoration: none;
+}
+a:ACTIVE, a:HOVER{
+	color: #4a8db8;
+	text-decoration: underline;
+}
+
+
+
+/**************************************** 
+********** LOGIN_FORM  *******************
+*****************************************/
+#login_form {
+    background-color: #fff;
+    width: 100%;
+    max-width:360px;
+    padding: 0 50px 0 0;
+    border: 2px solid #dedede;
+    text-align: center;
+    
+    margin: 100px auto;
+    color: #747474;
+    
+}
+
+
+#login_form label{
+	display:inline-block;
+	text-align: left;
+	min-width:5em;
+}
+#login_form input{
+	height: 2em;
+	width:13em;
+	padding-left:1em;
+	border: 1px solid #dedede;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	border-radius:2px;
+	
+}
+#login_form li{
+	padding: 0.2em 0;
+}
+#login_form input[type=submit]{
+	
+	width:100%;
+	height:3em;
+	color:#fff;
+}
+#login_form input[type=submit]:HOVER{
+	cursor: pointer;
+}
+#login_form a{
+	padding: 0 1em;
+}
+#login_form span{
+	color: red;
+}
+/**************************************** 
+********** 회원가입Form  화면  *******************
+*****************************************/
+
+#join_form {
+    background-color: #fff ;
+    max-width: 500px;
+    padding: 0 50px 0 0;
+    border: 2px solid #dedede;
+    
+    margin: 0 auto;
+    
+    color: #747474;
+}
+#join_form li:FIRST-CHILD{
+	color: #269abc;
+}
+
+
+#join_form label{
+	display:block;
+	text-align: left;
+}
+#join_form input{
+	height: 3em;
+	width: 20em;
+	border: 1px solid #dedede;
+	padding: 0 1em;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	border-radius:2px;
+}
+
+#join_form li{
+	padding: 1em 0;
+}
+#join_form li:last-child{
+	text-align: center;
+}
+#join_form input[type=submit], #join_form input[type=reset]{
+	width:40%;
+	height: 3em;
+	text-align: center;
+	padding: 0 2em;
+	
+	
+}
+#join_form input[type=submit]:HOVER , #join_form input[type=reset]:HOVER {
+	cursor: pointer;
+}
+/**************************************** 
+********** 관리자 회원보기  *******************
+*****************************************/
+
+#members{
+	margin: 0 auto;
+	max-width: 800px;
+	min-width: 320px;
+}
+
+#bulletin_list{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#bulletin_add{
+	max-width: 600px;
+	margin: 0 auto;
+}
+#bulletin_add .form-group{
+	display: block;
+	
+	text-align: left;
+}
+#bulletin_add .submit{
+	
+	text-align: center;
+}
+
+#bulletin_detail{
+	max-width:800px;
+	margin: 0 auto;
+}
+
+#bulletin_detail .content{
+	border: 1px solid #dedede;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	border-radius:2px;
+	padding: 1.5em;
+}
+#bulletin_detail .info{
+	padding: 0.3em 1.5em;
+	background-color: #dedede
+}
+#bulletin_detail .sub{
+	padding: 0.2em 1.5em;
+	border-top: 5px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	
+}
+#bulletin_detail .submit{
+	text-align: left;
+}
+#bulletin_detail .comment{
+	padding: 0.5em 1.5em;
+	width: 90%
+}
+
+#comments .comm_block{
+	width:100%;
+	height:100%;
+	
+	border: 1px solid #dedede;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	border-radius:2px;
+	padding: 0.5em;
+	margin-bottom: 1em;
+}
+#comments .comm_block .comm_info{
+	
+}
+#comments .comm_info div{
+	display: inline-block;
+	min-width:100px;
+	float: left;
+	margin-right: 2em;
+}
+
+#comments .comm_content{
+	clear: both;
+	border: 1px solid #dedede;
+	background-color: #F6F6F6;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	border-radius:2px;
+	padding: 0.5em;
+}
+
+/**************************************** 
+********** 관리자 회원보기  *******************
+*****************************************/
+.checktext {
+	color: red;
+}
+
+/* /////////////////////////////////////////////
+	=.gallery-nav
+////////////////////////////////////////////// */
+
+.gallery-nav li{
+	float: left;
+	margin-right: 100px;
+}
+
+
+	
+

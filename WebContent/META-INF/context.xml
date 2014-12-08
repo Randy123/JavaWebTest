@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+ <Resource name="jdbc/MyDB"
+    auth="Container"
+    type="javax.sql.DataSource"
+    username="db_user"
+    password="12345"
+    driverClassName="oracle.jdbc.driver.OracleDriver"
+    factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+    url="jdbc:oracle:thin:@localhost:1521:orcltest"
+    maxActive="500"
+    maxIdle="100"/>
+    
+</Context>
